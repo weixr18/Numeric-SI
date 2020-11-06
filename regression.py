@@ -52,4 +52,4 @@ if __name__ == "__main__":
     t, I = load_data('data.csv')
     # solve for unknown parameters
     N, I0 = solve(t, I, r_beta)
-    print("N =", int(N), ", I0 =", int(I0))
+    print("N =", int(round(N)), ", I0 =", int(round(I0)))

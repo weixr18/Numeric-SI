@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-N = 0  # TODO: replace with real N
-I0 = 0  # TODO: replace with real I0
+N = 999
+I0 = 1
 r_beta = 1
 
 
